@@ -1,0 +1,48 @@
+:root{
+    --primary: #385C42;
+;
+    --light: #ffffff;
+    --grey: #efefef;
+
+
+}
+body{
+    overflow: hidden;
+    font-family: Arial;
+    font-weight: 300;
+    coor: var(--primary);
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+
+}
+.bg-blanco {
+    background-color: var(--light )!important;
+}
+#sidebar-container{
+    min-height: 100vh;
+
+}
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+
+}
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+.btn-search{
+
+}
+.avatar{
+    max-width: 35px;
+}
+.mgin{
+    margin-right: .7rem !important;
+}
